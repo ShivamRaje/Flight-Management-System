@@ -1,0 +1,82 @@
+@charset "ISO-8859-1";
+/* Body Styling */
+body {
+    background: linear-gradient(135deg, #74ebd5, #ACB6E5); /* Soft gradient effect */
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+/* Center the form */
+.centered-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Form Styling - Medium size with increased width */
+form {
+    background-color: white;
+    padding: 30px; /* Increased padding for a larger form */
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Slightly stronger shadow */
+    width: 400px; /* Increased width */
+    text-align: left;
+}
+
+/* Form Labels */
+form label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Input Fields */
+form input[type="text"],
+form input[type="password"],
+form input[type="date"],
+form select,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Radio buttons styling */
+form input[type="radio"] {
+    margin-right: 5px;
+}
+
+/* Submit Button Styling */
+form input[type="submit"] {
+    width: 100%;
+    padding: 12px; /* Slightly larger button */
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* General link styling */
+a {
+    text-decoration: none;
+    color: #4CAF50;
+    font-size: 14px;
+}
+
+a:hover {
+    text-decoration: underline;
+}

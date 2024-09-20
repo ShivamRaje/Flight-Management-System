@@ -1,0 +1,69 @@
+@charset "ISO-8859-1";
+/* CSS for the login page */
+
+body {
+    background-color: #f44336; /* A soft red color for the background */
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+}
+
+form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    margin-top: 100px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+form label {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    display: block;
+    margin-bottom: 8px;
+}
+
+form input[type="text"],
+form input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.center-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
