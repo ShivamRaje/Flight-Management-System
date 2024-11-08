@@ -80,8 +80,7 @@
 <h2>Contributing</h2>
 <p>Feel free to fork the repository and submit pull requests with any enhancements or bug fixes.</p>
 
-<h2>License</h2>
-<p>This project is licensed under the MIT License.</p>
+
 
 <h2>GitHub Repository</h2>
 <p><a href="https://github.com/ShivamRaje/Flight-Management-System.git" target="_blank">Flight Management System on GitHub</a></p>
