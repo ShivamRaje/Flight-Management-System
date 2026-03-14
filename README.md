@@ -11,7 +11,7 @@
 
 <h2>Project Overview</h2>
 <p>The Flight Management System is a Java-based web application that allows users to manage and view flight information. This application provides functionalities to store, update, and retrieve flight details such as flight number, type, source, destination, layovers, date, and charge.</p>
-<p>The project is designed using Java, JDBC, Servlets, JSP, and MySQL, aiming to offer a simple and efficient interface for both administrators and users...</p>
+<p>The project is designed using Java, JDBC, Servlets, JSP, and MySQL, aiming to offer a simple and efficient interface for both administrators and users....</p>
 
 <h2>Features</h2>
 <ul>
